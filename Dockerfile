@@ -1,5 +1,4 @@
 FROM node:latest
-RUN yarn install --network-concurrency 1
 WORKDIR /root/inrl/
 COPY package*.json ./
 RUN npm install
