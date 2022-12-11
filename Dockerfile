@@ -1,3 +1,4 @@
+FROM node:latest
 WORKDIR /root/bot/
 COPY package*.json ./
 RUN npm install
